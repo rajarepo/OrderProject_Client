@@ -1,0 +1,153 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+*{
+	font-family: 'Manrope', sans-serif;
+}
+/* .container-order{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+} */
+.Submitted{
+	font-family: 'Manrope', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 19px;
+	color: black;
+	letter-spacing: 0em;
+	text-align: left;
+	
+	}
+.kenny{
+	font-family: 'Manrope', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: black;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.order{
+font-family: 'Manrope', sans-serif;
+font-size: 32px;
+font-weight: 600;
+color: black;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.order-no{
+	font-family: 'Manrope', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #264B5D;
+
+	}
+
+	
+	table, td {
+		
+		border: 1px solid rgb(247, 247, 247);
+		border-collapse: collapse;
+
+	  }
+	  .table-wrapper {
+		border-radius: 8px;
+		/* overflow-y: scroll;
+		overflow-x: scroll; */
+		height: fit-content;
+		max-height: 66.4vh;
+		margin-top: 15px;
+		margin: 5px;
+		/*padding-bottom: 20px;*/
+	  }
+	  
+	  table {
+		min-width: max-content;
+		border-collapse: separate;
+		border-spacing: 0px;
+		border-radius: 8px;
+		width: 100%;
+	  }
+	  
+	  /* .table-filter {
+		border-radius: 5px;
+	  } */
+	  
+	  table th {
+		
+       height: 30px;
+		position: sticky;
+		top: 0px;
+		background-color:#EDEDED;
+		color:black;
+		font-weight: 500;
+		text-align: left;
+		font-weight: normal;
+		font-size: 12px;
+		/* outline: 0.7px solid black;
+		border: 1.5px solid black; */
+	  }
+	  
+	  table th,
+	  table td {
+		padding: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 16px;
+		color: #000000;
+	  }
+	  
+	  table td {
+		text-align: left;
+		font-size: 12px;
+		/* border: 1px solid rgb(177, 177, 177);	 */
+		padding-left: 10px;
+	  }
+	  
+	  .order-no1{
+		color: #7E7E7E;
+
+		font-family: Manrope;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 19px;
+		letter-spacing: 0em;
+		text-align: left;
+
+	  }
+
+	.fields{
+
+		font-family: 'Manrope', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 19px;
+		color: #7E7E7E;
+		text-align: start;
+	}  
+	.input{
+		font-family: 'Manrope';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 19px;
+		text-align: end;
+		color: #000000;
+	}

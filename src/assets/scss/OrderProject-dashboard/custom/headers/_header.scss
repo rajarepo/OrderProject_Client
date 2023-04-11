@@ -1,0 +1,467 @@
+//
+// Header
+//
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.header {
+  position: relative;
+}
+
+.header-white {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000 !important;
+}
+
+.header-2 {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000 !important;
+}
+
+.font12 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  font-family: 'Manrope', sans-serif;
+}
+
+.font14 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'Manrope', sans-serif;
+}
+
+.header-3 {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  line-height: 19px;
+  color: #7E7E7E !important;
+}
+
+.drop-container {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px dashed #b3b3b3 !important;
+  background-color: #ffffff !important;
+  color: #1e0a45 !important;
+  cursor: pointer;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-containers {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // height: 100%;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px dashed #ffffff !important;
+  background-color: #ffffff !important;
+  color: #1e0a45 !important;
+  cursor: pointer;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.drop-title {
+  color: #7E7E7E;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.choose {
+  background-color: #FFFFFF;
+  border: 1px solid #EDEDED !important;
+  border-radius: 8px;
+  color: black;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  font-weight: 500;
+  gap: 20px;
+}
+
+.button-request {
+  border: 1px solid #EDEDED;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: inline-block;
+  //  line-height: 1.3em;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  height: 43px;
+  //  width: 154px;
+}
+
+.ant-checkbox .ant-checkbox-inner {
+  background-color: #93CAE6;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #264B5D;
+  accent-color: #264B5D;
+}
+
+.ant-checkbox-checked.ant-checkbox-inner {
+  background-color: #93CAE6;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #264B5D;
+  accent-color: #264B5D;
+}
+
+.ant-checkbox .ant-checkbox-inner:hover {
+  background-color: #93CAE6;
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  border: 1px solid #264B5D;
+  accent-color: #264B5D;
+}
+
+.labels {
+  color: #000000;
+  display: block;
+  // font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 17px;
+}
+
+.inputs {
+  border: 1px solid #d9d9d9;
+  color: #7E7E7E;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 8px;
+  height: 10%;
+  width: 100%;
+}
+
+.note {
+  background-color: #F7F7F7;
+  border-radius: 100%;
+  height: 96px;
+  width: 96px;
+  align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-input-affix-wrapper>input.ant-input {
+  color: black;
+}
+
+body1 {
+  color: white;
+  line-height: 1.2;
+}
+
+.css-1okebmr-indicatorSeparator {
+  background-color: white !important;
+}
+
+.css-1wa3eu0-placeholder {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #7E7E7E;
+}
+
+.ant-picker {
+  height: 40px;
+  width: 100%;
+  color: black !important;
+}
+
+:where(.css-dev-only-do-not-override-10ed4xt).ant-picker .ant-picker-input>input:placeholder-shown {
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: black !important;
+  font-weight: 400;
+  font-family: 'Manrope', sans-serif;
+}
+
+.btn-secondary {
+  background: #264B5D !important;
+  // border: 1px solid #EDEDED !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #FFFFFF;
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  line-height: 19px;
+}
+
+.btn-secondary:hover {
+  color: #FFFFFF;
+}
+
+.css-6q0nyr-Svg {
+  color: black;
+}
+
+.ant-select-selection-placeholder {
+  color: #7E7E7E;
+  font-size: 14px;
+}
+
+.ant-select-arrow {
+  color: black !important;
+  font-weight: bold;
+
+}
+
+.modalTitle {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.ant-modal .ant-modal-content {
+  padding: 0px;
+}
+
+.gridCard {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #000000;
+  text-align: center;
+}
+
+.gridCardfile {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #264B5D;
+}
+
+.ant-select-selection-placeholder {
+  padding-inline-end: 40px !important;
+}
+
+// :where(.css-dev-only-do-not-override-10ed4xt).ant-card-contain-grid:not(.ant-card-loading) .ant-card-body {
+
+//   margin-inline-start: 0px !important;
+// }
+@media (min-width: 1200px) {
+
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1340px;
+  }
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: #264B5D;
+  background-color: #93CAE6;
+}
+
+.ant-table-tbody>tr>td {
+  padding: 30px;
+}
+
+.font16 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  font-family: 'Manrope';
+}
+
+.labels-e {
+  color: #000000;
+  display: block;
+  // font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: 17px;
+}
+
+.electronic-s {
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  // text-align: left;
+  color: #000000;
+}
+
+.electronic-2 {
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  // text-align: left;
+  color: #7E7E7E;
+}
+
+.ant-radio-checked .ant-radio-inner:after {
+  background-color: #264B5D;
+  accent-color: #93CAE6;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #264B5D;
+  accent-color: #93CAE6;
+  background-color: #93CAE6;
+
+}
+
+.ant-radio-checked .ant-radio-inner:focus {
+  border-color: #264B5D;
+  accent-color: #93CAE6;
+  background-color: #93CAE6
+}
+
+.putOnFile {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #7E7E7E;
+}
+
+
+  .PopUpNormalText{
+// width: 320px;
+// height: 140px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+padding: 17px;
+line-height: 200%;
+text-align: center;
+color: #7E7E7E;
+  }
+  .PopUpNormalText1{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 200%;
+text-align: center;
+color: #7E7E7E;
+
+  }
+  .PopUpBoldText{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+
+  }
+
+  .PopUpKeyText{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+border-radius: 8px;
+line-height: 19px;
+color: #000000;
+
+  }
+  .PopUpContinueText{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+color: #FFFFFF;
+
+  }
+
+.modelText {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 200%;
+  text-align: center;
+  color: #7E7E7E;
+}
+
+.modelBoldText {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.dropdownBoxContainerText {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  color: #7E7E7E;
+}
+
